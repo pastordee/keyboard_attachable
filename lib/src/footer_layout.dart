@@ -9,10 +9,10 @@ import 'package:flutter/widgets.dart';
 class FooterLayout extends StatelessWidget {
   /// Creates a layout with its child widget above a footer widget.
   const FooterLayout({
-    Key? key,
+    super.key,
     this.footer,
     this.child,
-  }) : super(key: key);
+  });
 
   /// The widget to position at the bottom of the available space.
   final Widget? footer;
